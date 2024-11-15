@@ -1,0 +1,18 @@
+[tool.poetry]
+package-mode = false
+description = "My solutions to Jane Street's monthly puzzles"
+authors = ["Lucas Wolf <iamlucaswolf@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.1.3"
+matplotlib = "^3.9.2"
+sympy = "^1.13.3"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
